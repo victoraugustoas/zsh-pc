@@ -24,7 +24,7 @@ git clone https://github.com/Treri/fzf-zsh.git ${ZSH}/custom/plugins/fzf-zsh
 
 # nerd fonts
 git clone --depth 1 https://github.com/ryanoasis/nerd-fonts.git
-./$HOME/nerd-fonts
+./$HOME/nerd-fonts/install.sh
 
 # get .zshrc
 curl https://raw.githubusercontent.com/victoraugustoas/zsh-pc/master/.zshrc > $HOME/.zshrc
